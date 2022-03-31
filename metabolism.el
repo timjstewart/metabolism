@@ -45,6 +45,4 @@ entered text."
     (helm :prompt "Tab: "
           :sources '(switch-to create))))
 
-(spacemacs/set-leader-keys "o t" 'metabolism-helm-tabs)
-
 (provide 'metabolism)
